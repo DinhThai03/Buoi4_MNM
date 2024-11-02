@@ -10,9 +10,9 @@ int tich(int a, int b){
 	return a*b;
 }
 float thuong(int a, int b)
+int tong(int a, int b)
 {
-	if(b != 0)
-		return a/b;
+	return a+b;
 }
 int main()
 {
@@ -22,7 +22,6 @@ int main()
 	cin >> a;
 	cout << "nhap b: ";
 	cin >> b;
-
 	cout << "Hieu la: " << hieu(a,b) << endl;
 	cout<<"Tich la"<<tich(a,b) << endl;
 	if(b != 0)
